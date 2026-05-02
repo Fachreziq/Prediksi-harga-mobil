@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasil Prediksi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card result-card">
+
+        <h2>💰 Hasil Prediksi</h2>
+
+        <p class="car-name">🚗 {{ car_name }}</p>
+
+        <div class="price">
+            {{ prediction }}
+        </div>
+
+        <a href="/" class="btn-back">🔙 Kembali</a>
+
+    </div>
+</div>
+
+</body>
+</html>
